@@ -1,0 +1,54 @@
+// Import webfonts
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: .5px solid maroon;
+}
+
+//Variables
+@import "var";
+@import "header";
+
+//DOM elements
+body {
+  font-size: 100%;
+  background: $body-bg;
+}
+
+section {
+  display: flex;
+}
+//Standard elements
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.col1 {
+
+}
+.col2 {
+
+}
+.col3 {
+
+}
+.sidebar {
+  background: #333;
+  color: #ccc;
+  flex-wrap: wrap;
+}
+.footer {
+
+}
+//Typography
+@import "typography";
+
+//Layout
+
+//Color
